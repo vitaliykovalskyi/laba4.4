@@ -15,6 +15,7 @@ int main()
 
 	// Початок оформлення
 	cout << fixed;
+	cout << "|----------Title----------|" << endl;
 	cout << "---------------------------" << endl;
 	cout << "|" << setw(7) << "x" << " |"
 		<< setw(10) << "y" << " |" << endl;
@@ -40,7 +41,7 @@ int main()
 
 		// Ще початок оформлення
 		cout << "|" << setw(7) << setprecision(2) << x
-			<< " |" << setw(10) << setprecision(2) <<y
+			<< " |" << setw(10) << setprecision(2) << y
 			<< " |" << endl;
 		// Ще кінець оформлення
 
